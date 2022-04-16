@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Re-Source Pharmacies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="orgstyle.css">
+
+</head>
+
+<body>
+
+&nbsp
+<h1>Re-Source Pharmacies
+
+&nbsp
+
+<nav> 
+<small><a href="orgindex.html">Home</a> |  
+<a href="orgabout.html">About</a> | 
+<a href="supplies.html">Supplies</a> | 
+<a href="order.html">Orders</a> | 
+<a href="faq.html">FAQ</a> | 
+<a href="contact.html">Contact</a></small>
+</nav>
+</h1>
+&nbsp
+<p>
+<form action="http://www.re-sourcepharmacies.com/order.php" method="post">
+
+<fieldset>
+ <legend>Your Information</legend>
+<ul>
+  <li><label for="form-name">Name:</label> <input type="text" name="customername" id="form-name"></li>
+  <li><label for="form-address">Address:</label> <input type="text" name="address" id="form-address"></li>
+  <li><label for="form-tel">Telephone Number:</label> <input type="tel" name="telephone" id="form-tel"></li>
+  <li><label for="form-email">Email:<input type="email" name="email" id="form-email"></label></li>
+  <li>Delivery instructions:<br>
+  <textarea name="instructions" rows="4" cols="60" maxlength="400" id="form-story"></textarea></li>
+</ul>
+</fieldset>
+
+<h2>Select your Order:</h2>
+
+<fieldset>
+<legend>Order Details</legend>
+<fieldset>
+<legend>Devices <em>(Select a device you require refills for)</em>:</legend>
+<ul>
+  <li><label><input type="radio" name="devices" value="dexcom 5">Dexcom G5</label></li>
+  <li><label><input type="radio" name="devices" value="dexcom 6">Dexcom G6</label></li>
+  <li><label><input type="radio" name="devices" value="tslim">T-slim</label></li>
+  <li><label><input type="radio" name="devices" value="blood checker">Blood Checker</label></li>
+</ul>
+</fieldset>
+
+<fieldset>
+<legend>Supplies <em>(Select supplies to refill)</em>:</legend>
+<ul>
+  <li><label><input type="checkbox" name="supplies[]" value="humalog">Humalog</label></li>
+  <li><label><input type="checkbox" name="supplies[]" value="novalog">Novalog</label></li>
+  <li><label><input type="checkbox" name="supplies[]" value="pen needles">Pen Needles</label></li>
+  <li><label><input type="checkbox" name="supplies[]" value="humalog pen">Humalog (kwik pen)</label></li>
+  <li><label><input type="checkbox" name="supplies[]" value="lantus pen">Lantus (pen)</label></li>
+  <li><label><input type="checkbox" name="supplies[]" value="dexcom s">Dexcom Transmitter</label></li>
+  <li><label><input type="checkbox" name="supplies[]" value="dexcom t">Dexcom Sensor</label></li>
+</ul>
+</fieldset>
+
+<fieldset>
+<legend>Amount</legend>
+<p>Amount:
+<select name="supplies" size="1">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+</select>
+
+</fieldset>
+
+</fieldset> 
+</p>
+<p><input type="submit" value="Submit Order"><input type="reset"></p>
+
+</form>
+</body>
+
+<footer>
+<p>If you requre futher assistance, please click the "contacts" 
+link above to inqure one of our staff.</p>
+
+<p>For medical emergencies please call <strong>911</strong>.</p>
+
+<small>all rights reserved to Re-Source Company</small>
+</footer>
+
+</html>
